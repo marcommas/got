@@ -2,7 +2,7 @@
 var mongo = require('mongodb');
 
 var connMongoDB = function(){
-    console.log('a');
+
     var db = new mongo.Db(
             'got', //nome do banco
             new mongo.Server(
