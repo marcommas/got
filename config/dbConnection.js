@@ -7,6 +7,8 @@ var connMongoDB = function(){
             'got', //nome do banco
             new mongo.Server(
                     'localhost', //endereço do servidor
+//                    'mongodb://192.168.20.172/',
+//                    '192.168.20.172',
                     27017, //porta conexão
                     {}
                 ),
